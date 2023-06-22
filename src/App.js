@@ -1,9 +1,11 @@
 import './App.css';
+import MainHeaders from './Components/MainHeaders';
 
 function App() {
   return (
     <div className='App'>
-      <h3> Hello, i am hosted on OpenShfit </h3>
+      <MainHeaders/>
+      <h3> Hello, i am hosted on OpenShfit - Check the Documentation & About page </h3>
     </div>
   );
 }
